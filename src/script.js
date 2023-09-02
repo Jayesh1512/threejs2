@@ -59,7 +59,7 @@ fontLoader.load(
         // Donuts
         const donutGeometry = new THREE.TorusKnotGeometry(0.3, 0.2, 64, 32)
 
-        for(let i = 0; i < 100; i++)
+        for(let i = 0; i <75 ; i++)
         {
             const donut = new THREE.Mesh(donutGeometry, material)
             donut.position.x = (Math.random() - 0.5) * 10
